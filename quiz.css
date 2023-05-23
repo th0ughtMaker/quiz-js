@@ -1,0 +1,219 @@
+*{
+    background-color: rgb(247, 247, 250);
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.image img{
+    /* border: 1px solid green; */
+    width: 500px;
+   
+}
+
+
+#exit{
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(65, 61, 61);
+    display: none;
+    padding: 20px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.NavMain{
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    background-color: rgb(236, 234, 243);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 4px ;
+    position: sticky;
+    color: black;
+    justify-content: space-evenly;
+    
+}
+
+.NavMain li,h3{
+    margin: 8px;
+    background: transparent;
+}
+
+.menu:hover{
+    color: rgb(122, 122, 122);
+}
+/* ---------------------------------------------Container------------------------------------------- */
+
+#container{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 50px;
+}
+
+.card{
+    width: 20vw;
+    height: 25vh;
+    /* background-color: rgba(235, 236, 241, 0.575); */
+    background-image: url(./image.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+    gap: 20px;
+
+    color: rgb(14, 11, 146);
+    cursor: pointer;
+    box-shadow: 0px 0px 4px rgb(188, 192, 192);
+}
+
+.card h3{
+    float: left;
+    font-size: 30px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    background-color: rgba(212, 217, 219, 0.726);
+    
+}
+/* -------------------------------------------------HOME------------------------------- */
+#Home{
+    /* border: 1px solid green; */
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 4vw;
+   font-size: 20px;
+   justify-content: center;
+   color: rgb(10, 87, 150);
+}
+
+
+#Home h1{
+    margin: 10px;
+    /* border: 1px solid royalblue; */
+   
+    font-weight: 100;
+}
+
+
+#Home p{
+    padding: 10px;
+    font-weight: 700;
+}
+.start{
+    padding: 5px 10%;
+    height: 12%;
+    position: absolute;
+    bottom: 0;
+    
+    border: none;
+    
+    background-color: rgb(5, 5, 133);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+
+
+
+.start:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 77);
+}
+
+/* --------------------------------------------------CONTENT-------------------------------------------------- */
+
+
+
+#content{
+    width: 40vw;
+    height: 50vh;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: none;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 6px blueviolet ;
+    flex-direction: column;
+    border-radius: 20px;
+    background:white ;
+    margin-top: 10vw;
+    position: relative;
+    z-index: 99;
+    color: rgb(59, 2, 112);
+}
+h2{
+    background: transparent;
+    margin:  5px;
+    padding-bottom: 20px;
+    align-self: center;
+    
+}
+.innerContent{
+    margin: 20px;
+    margin-left: 5vw;
+    padding: 2vh;
+    background: transparent;
+}
+
+.submit{
+    width: 100%;
+    height: 8vh;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    background:rgb(126, 72, 253);
+    border: none;
+    color: white;
+    border-radius:  15px;
+    box-shadow: 0px 0px 6px rgb(144, 101, 245);
+}
+
+.submit:hover{
+    cursor: pointer;
+    background:rgb(104, 41, 250);
+}
+li{
+
+    list-style: none;
+}
+ .options{
+    margin: 15px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: center;
+    
+    
+}
+
+.options:hover{
+    color: rgb(5, 1, 22);
+}
+
+input,label,li{
+    background: transparent;
+    cursor: pointer;
+}
+
